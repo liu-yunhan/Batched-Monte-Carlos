@@ -1,5 +1,6 @@
 # Batched-Monte-Carlos
-Batching Stata Monte Carlos: Memory-Safe, Resume-Friendly, and Parallel
+A simple example to demonstrate "Batching Stata Monte Carlos: Memory-Safe, Resume-Friendly, and Parallel"
+We are working on a more generalized routine so this can be used more easily.
 
 ## Requirements:
 1. Stata
