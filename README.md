@@ -1,7 +1,7 @@
 # Batched-Monte-Carlos
 Batching Stata Monte Carlos: Memory-Safe, Resume-Friendly, and Parallel
 
-## requirements:
+## Requirements:
 1. Stata
 2. python
 3. Git bash
