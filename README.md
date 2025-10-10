@@ -27,9 +27,8 @@ In this example, the generated DO files are named mean_r1.do, mean_r2.do, ...
 The shell script will move mean_r1.do from generated_dofiles to done_dofiles after it 'sees' mean_r1.dta 
 has been created (in a folder named "Outputs").
 
-## Example code to execute in git-bash:
+## Order of operations:
 
-Order of operations:
 1. Prepare your Monte Carlo do file
 2. Transform the do file to a template by
   a. Replacing parameters in the do file with `<<\theta>>`, e.g. `<<i>>`
