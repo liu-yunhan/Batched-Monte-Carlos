@@ -1,6 +1,12 @@
 # Batched-Monte-Carlos
 Batching Stata Monte Carlos: Memory-Safe, Resume-Friendly, and Parallel
 
+## requirements:
+1. Stata
+2. python
+3. Git bash
+
+## A quick guide:
 
 edit: 
 template.do
@@ -19,8 +25,10 @@ In this example, the generated DO files are named mean_r1.do, mean_r2.do, ...
 The shell script will move mean_r1.do from generated_dofiles to done_dofiles after it 'sees' mean_r1.dta 
 has been created (in a folder named "Outputs").
 
-***************************************
+## Example code to execute in git-bash:
+
+```stata
 cd ~/your-folder-here
 chmod 700 1.run_do_files.sh
 ./1.run_do_files.sh
-***************************************
+```
